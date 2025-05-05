@@ -28,7 +28,8 @@ gh repo clone my-landing-page
 cd my-landing-page
 
 # Run Flutter create to initialize the project
-flutter create .
+flutter clean
+flutter build web
 
 # Install dependencies
 flutter pub get
